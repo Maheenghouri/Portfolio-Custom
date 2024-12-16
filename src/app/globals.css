@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.user-avatar{
+  width: 213px;
+  background: linear-gradient(135deg, #FF6A00, #B832D1);
+  overflow: hidden;
+  height: 213px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.user-avatar img {
+  width: 212px;
+}
+
+
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  
+  
+}
+ 
+.navbar {
+  background-color: #121212;  
+  padding: 2px 0; 
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;  
+
+}
+ 
+.logo-img {
+
+  width: 70px;
+  height: 120px;
+}
+
+ 
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;  
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e5e7eb;  
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.sec-one {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.get-resume {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+  font-size: 21px;
+}
+
+.grade-color {
+  background: linear-gradient(to right, #FF8A00, #FF4A8D, #8A2BE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main {
+  font-size: 2.25rem;
+  line-height: 1.5;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #9CA3AF;
+  margin-bottom: 15px;
+}
+
+.exp-with {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.intro {
+  color: #9ca3af;
+  max-width: 32rem;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button-1 {
+  background-color: white;
+  color: black;
+}
+
+.button-1:hover {
+  background-color: #e5e7eb;
+}
+
+.button-2 {
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+}
+
+.button-2:hover {
+  background-color: #1f2937;
+}
+
+.exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.icons {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.feature-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+.image-box {
+  height: 235px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  height: 300px;
+  width: 390px;
+  background-color: #1f2937;
+  border-radius: 18px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  width: 90%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 20px;
+ 
+}
+
+.orange-gradient{
+  background: linear-gradient(to bottom, #FF8660 0%, #D5491D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;  
+  color: transparent; 
+  text-align: center;
+  font-size: 35px;
+}
+
+.text-gray-light{
+  color: #C5C5C5;
+  font-weight: 10px;
+}
+
+.color-white{
+  color: white;
+}
+
+.image-container {
+  width: 100%;
+  height: 235px;
+}
+
+.content .content-text .headtitle {
+  font-size: 11px;
+  margin: 0px;
+}
+
+.content .content-text .title {
+  font-size: 20px;
+  margin: 0px;
+  
+}
+
+.card-link{
+  text-decoration: none;
+
+}
+
+.experience{
+  max-width: auto;
+  padding: 24px;
+}
+
+ .title-experience{
+  font-size: 30px;  
+  padding-top: 77px;
+  font-weight: bold;
+  text-align: center;
+  color: #3b82f6;  
+  margin-bottom: 48px;  
+ }
+
+ .gradient-blue {
+  color: linear-gradient(90deg, #5BADFF 0%, #1373D1 100%);
+   
+}
+
+.contact-section {
+  background-color: #191919;
+  color: #fff;
+  padding: 0px;
+}
+
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+ 
+.contact-title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  padding-top: 63px;
+}
+
+ 
+.contact-description {
+  color: #aaa;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+ 
+.contact-email {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.email-icon {
+  font-size: 1.5rem;
+}
+
+.email-link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+ 
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+  transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+}
+
+/* General Container Styling */
+.experience-section {
+  background-color: #000;
+  color: #fff;
+  padding: 64px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: #3b82f6;
+  margin-bottom: 48px;
+}
+
+ 
+.experience-list {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.experience-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.experience-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.experience-role {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.experience-description {
+  color: #9ca3af;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.experience-date {
+  color: #9ca3af;
+  text-align: right;
+  font-size: 14px;
+}
+
